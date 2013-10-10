@@ -9,6 +9,11 @@ public class LoginInfo implements Serializable {
   private String logoutUrl;
   private String emailAddress;
   private String nickname;
+  private String superHero; 
+  
+  public void setSuperHero(String input){
+	  superHero = input; 
+  }
 
   public boolean isLoggedIn() {
     return loggedIn;
@@ -43,7 +48,8 @@ public class LoginInfo implements Serializable {
   }
 
   public String getNickname() {
-    return nickname;
+    //return nickname;
+	  return superHero; 
   }
 
   public void setNickname(String nickname) {

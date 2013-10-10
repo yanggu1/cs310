@@ -9,6 +9,7 @@ public class LoginInfo implements Serializable {
   private String logoutUrl;
   private String emailAddress;
   private String nickname;
+public String messymessmessmessmess;
 
   public boolean isLoggedIn() {
     return loggedIn;
@@ -49,4 +50,8 @@ public class LoginInfo implements Serializable {
   public void setNickname(String nickname) {
     this.nickname = nickname;
   }
+
+public void setAngField (String blah){
+this.messymessmessmessmess = "I'm simply helping you with lab so I'm writing some dumb message here to irritate you ;)";
+}
 }
